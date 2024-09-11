@@ -25,7 +25,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://express-2j9u-121668-6-1318434452.sh.run.tcloudbase.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
