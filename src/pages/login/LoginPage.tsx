@@ -1,6 +1,6 @@
 // 简单的登录页，antd 创建
 import React from 'react'
-import { Form, Input, Button, message, Row, Col } from 'antd'
+import { Form, Input, Button, message } from 'antd'
 import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import useLoginStore from '@stores/login'
 import { useNavigate } from 'react-router-dom'

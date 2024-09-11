@@ -1,5 +1,5 @@
 import React, { ChangeEvent } from 'react'
-import { Avatar, Dropdown, MenuProps, Button, Input, Badge, Space } from 'antd'
+import { Avatar, Dropdown, MenuProps, Button, Input, Space } from 'antd'
 import { SkinOutlined } from '@ant-design/icons'
 import { useLoginStore, useGlobalStore } from '@stores/index'
 import { debounce } from 'lodash'
